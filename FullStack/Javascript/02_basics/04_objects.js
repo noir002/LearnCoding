@@ -45,7 +45,7 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = { obj1, obj2 }------------------------>Obj1(first parameter is target where to store all of them)
 // const obj3 = Object.assign({}, obj1, obj2, obj4)------> Here empty object is the target
 
-const obj3 = {...obj1, ...obj2}
+const obj3 = {...obj1, ...obj2}                  // Using spread operator
 // console.log(obj3);
 
 
